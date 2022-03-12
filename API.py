@@ -14,11 +14,11 @@ import csv
 #     lines.append(line)
 # =============================================================================
 
-years = [2019, 2020, 2021]
+years = [2015, 2016, 2017, 2018]
 months = np.arange(1, 13, 1)
 days = [31,28,31,30,31,30,31,31,30,31,30,31]
 #with open('Generation.csv','a') as fd:
-csv_file = open('Generation.csv', 'ab')
+csv_file = open('Generation_2015_2018.csv', 'ab')
 for year in years:
     for month in months:
         print('month', month)
